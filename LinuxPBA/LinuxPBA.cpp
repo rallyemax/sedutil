@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
     if (strcmp(p.c_str(), "debug")) {
         printf("Starting OS \n");
         sync();
-        reboot(RB_AUTOBOOT);
+        //reboot(RB_AUTOBOOT);
     }
     return 0;
 }
