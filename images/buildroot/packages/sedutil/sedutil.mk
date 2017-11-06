@@ -4,8 +4,8 @@
 #
 ################################################################################
 SEDUTIL_VERSION = 1.15.1
-SEDUTIL_SOURCE = sedutil-$(SEDUTIL_VERSION).tar.gz
-SEDUTIL_SITE = http://www.foosoftware.org/download
+SEDUTIL_SOURCE = $(SEDUTIL_VERSION).tar.gz
+SEDUTIL_SITE = https://github.com/rallyemax/sedutil/archive
 SEDUTIL_INSTALL_STAGING = NO
 SEDUTIL_LIBTOOL_PATCH = NO
 SEDUTIL_INSTALL_TARGET = YES
